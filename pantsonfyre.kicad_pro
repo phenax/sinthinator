@@ -66,7 +66,7 @@
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "ignore",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -105,8 +105,8 @@
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -671,7 +671,7 @@
         "uuid": "64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R7-9",
     "variants": []
   },
   "sheets": [

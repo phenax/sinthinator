@@ -4613,6 +4613,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 109.22) (xy 88.9 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08c5455f-d49f-446f-a9e0-dfd682a19813")
+	)
+	(wire
+		(pts
 			(xy 97.79 124.46) (xy 97.79 139.7)
 		)
 		(stroke
@@ -4680,6 +4690,16 @@
 			(type default)
 		)
 		(uuid "101944ae-2a36-4634-b94c-3b9bfb2bf598")
+	)
+	(wire
+		(pts
+			(xy 218.44 109.22) (xy 219.71 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "101ca237-6c79-4e78-afb2-a14951a09f42")
 	)
 	(wire
 		(pts
@@ -4793,13 +4813,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 109.22) (xy 162.56 109.22)
+			(xy 93.98 109.22) (xy 96.52 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c00ba5b-0406-456d-a616-f81c48c59d8c")
+		(uuid "1cb3a491-48dd-4ffd-a850-82d3a9d001af")
 	)
 	(wire
 		(pts
@@ -4910,6 +4930,16 @@
 			(type default)
 		)
 		(uuid "2f66caa2-4dd7-4c07-86b7-af82163711c7")
+	)
+	(wire
+		(pts
+			(xy 153.67 109.22) (xy 154.94 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30592f99-11cf-433b-b679-de4a5cef93a3")
 	)
 	(wire
 		(pts
@@ -5443,16 +5473,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 109.22) (xy 227.33 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d4d85b4-0f1f-4408-a4b0-fa9020c0bea3")
-	)
-	(wire
-		(pts
 			(xy 176.53 53.34) (xy 176.53 78.74)
 		)
 		(stroke
@@ -5593,6 +5613,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 109.22) (xy 162.56 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "753b338c-8ae1-4cc8-804d-7df2dac830e6")
+	)
+	(wire
+		(pts
 			(xy 214.63 144.78) (xy 214.63 156.21)
 		)
 		(stroke
@@ -5700,16 +5730,6 @@
 			(type default)
 		)
 		(uuid "8208a847-2259-4301-a62a-6430a1b01242")
-	)
-	(wire
-		(pts
-			(xy 87.63 109.22) (xy 96.52 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82e10304-3947-42b4-87be-ef32204b80d6")
 	)
 	(wire
 		(pts
@@ -6853,6 +6873,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 109.22) (xy 227.33 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee82e040-3e9b-463e-b965-ef5f8cd61ef2")
+	)
+	(wire
+		(pts
 			(xy 148.59 102.87) (xy 176.53 102.87)
 		)
 		(stroke
@@ -7265,6 +7295,97 @@
 			(project "pantsonfyre"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "UTouch3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Resistor:1k_0603")
+		(at 91.44 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1210e85a-f2df-498e-82a0-3fb7c7054f11")
+		(property "Reference" "R7"
+			(at 91.44 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 91.44 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+			(at 91.44 113.792 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 90.17 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 91.44 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "RES-07856"
+			(at 91.44 116.078 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7db0b640-9fe7-4a34-bf30-ce4b859f75a2")
+		)
+		(pin "2"
+			(uuid "919303b3-5c49-4e45-92db-3131b6c85af1")
+		)
+		(instances
+			(project "pantsonfyre"
+				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -10140,6 +10261,97 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-Resistor:1k_0603")
+		(at 222.25 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d084599-acd9-427b-a008-bf70f2bd9349")
+		(property "Reference" "R9"
+			(at 222.25 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 222.25 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+			(at 222.25 113.792 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 220.98 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 222.25 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "RES-07856"
+			(at 222.25 116.078 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d689048b-40fd-4684-a495-658770837a36")
+		)
+		(pin "2"
+			(uuid "345d93f6-7c1c-4487-bf10-c83699873b81")
+		)
+		(instances
+			(project "pantsonfyre"
+				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-Capacitor:100uF_6.6x6.6_25V_20%")
 		(at 59.69 34.29 0)
 		(unit 1)
@@ -12497,6 +12709,97 @@
 			(project "pantsonfyre"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Resistor:1k_0603")
+		(at 157.48 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc3bc084-f01e-49c0-b60b-8a771650e689")
+		(property "Reference" "R8"
+			(at 157.48 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 157.48 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+			(at 157.48 113.792 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 156.21 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "RES-07856"
+			(at 157.48 116.078 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cbd14aed-96c7-4da2-9b6f-1cefaa4b19b3")
+		)
+		(pin "2"
+			(uuid "ad8e78c3-05f9-433d-a75a-d9a20ff35ea3")
+		)
+		(instances
+			(project "pantsonfyre"
+				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
+					(reference "R8")
 					(unit 1)
 				)
 			)
