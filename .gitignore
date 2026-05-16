@@ -1,4 +1,5 @@
 *.zip
+*.bak
 *.lck
 *-save.pro
 *-save.kicad_pcb
