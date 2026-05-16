@@ -21,10 +21,10 @@ svg-schematic:
   {{KICAD_CLI}} sch export svg -t arcana --output "{{OUTDIR}}" ./pantsonfyre.kicad_sch
 
 svg-pcb:
-  {{KICAD_CLI}} pcb export svg --layers '*' --mode-single -o pcb.svg --output "{{OUTDIR}}" ./pantsonfyre.kicad_pcb
+  {{KICAD_CLI}} pcb export svg --layers '*' --mode-single -o "{{OUTDIR}}/pcb.svg" ./pantsonfyre.kicad_pcb
 
 bom:
-  {{KICAD_CLI}} sch export bom pantsonfyre.kicad_sch -o ../output/pantsonfyre-bom.csv
+  {{KICAD_CLI}} sch export bom pantsonfyre.kicad_sch -o "{{OUTDIR}}/pantsonfyre-bom.csv"
 
 @gen-gerbers:
   {{KICAD_CLI}} pcb export gerbers \
