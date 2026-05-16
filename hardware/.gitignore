@@ -1,0 +1,8 @@
+*.zip
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+./#auto_saved_files#/
+output/
+*-backups/
+.history/

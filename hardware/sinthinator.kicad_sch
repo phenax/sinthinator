@@ -5,7 +5,7 @@
 	(uuid "64a5e531-3d7a-4ff8-86a8-ca74cfe0739b")
 	(paper "A4")
 	(title_block
-		(title "PantsOnFyre")
+		(title "sinthinator")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Audio:PAM8302AAD"
@@ -7113,7 +7113,7 @@
 			(uuid "614c3a01-95cb-4964-9cee-6701e0347278")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "U8")
 					(unit 1)
@@ -7204,7 +7204,7 @@
 			(uuid "0e92b4c5-cd1b-4c9c-acb0-63f4d6dd21c8")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "R6")
 					(unit 1)
@@ -7292,7 +7292,7 @@
 			(uuid "738dcffa-a26f-4661-8911-4db4ff255914")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "UTouch3")
 					(unit 1)
@@ -7383,7 +7383,7 @@
 			(uuid "919303b3-5c49-4e45-92db-3131b6c85af1")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "R7")
 					(unit 1)
@@ -7461,7 +7461,7 @@
 			(uuid "2eb443bf-76e0-4218-9e15-b184b7878b21")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR012")
 					(unit 1)
@@ -7552,7 +7552,7 @@
 			(uuid "0d0dbf33-7a34-48b7-913e-3372d329497d")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "R1")
 					(unit 1)
@@ -7659,7 +7659,7 @@
 			(uuid "458ef282-4b7c-4545-b39c-8635e4d8c0d1")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "U5")
 					(unit 1)
@@ -7737,7 +7737,7 @@
 			(uuid "b7378abb-5c18-44b8-8442-604e7fb6f718")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR018")
 					(unit 1)
@@ -7852,7 +7852,7 @@
 			(uuid "c225f8c1-17c3-424e-a100-3d7a80b5c90a")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "C8")
 					(unit 1)
@@ -7932,7 +7932,7 @@
 			(uuid "f8a109c4-16a1-4a13-b6e5-648421179340")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "SW3")
 					(unit 1)
@@ -8046,7 +8046,7 @@
 			(uuid "d9b4c283-35a2-42e6-9db7-b1ab9934ad0c")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "C5")
 					(unit 1)
@@ -8124,7 +8124,7 @@
 			(uuid "a099971f-8629-4f15-a27d-487ff06e5a9d")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR030")
 					(unit 1)
@@ -8202,7 +8202,7 @@
 			(uuid "0f0acbec-12a7-452c-ab1e-c03bc2cc71d1")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR029")
 					(unit 1)
@@ -8280,7 +8280,7 @@
 			(uuid "e5b87760-2398-446a-b494-82c54a5501ea")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR015")
 					(unit 1)
@@ -8395,7 +8395,7 @@
 			(uuid "f6d6373f-8ea2-425f-bd8c-15c10f094570")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "C9")
 					(unit 1)
@@ -8494,7 +8494,7 @@
 			(uuid "4dde4fea-19a1-4f20-8a07-906d0e6a5552")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "J1")
 					(unit 1)
@@ -8608,7 +8608,7 @@
 			(uuid "f3b8573c-d4d6-4428-87b9-deb0e70dc0d8")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "C10")
 					(unit 1)
@@ -8686,7 +8686,7 @@
 			(uuid "65405540-e19a-4b6c-b4cd-35a33e6de316")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR016")
 					(unit 1)
@@ -8764,7 +8764,7 @@
 			(uuid "13b0d8f8-b809-4870-8511-b260106aee87")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR025")
 					(unit 1)
@@ -8842,7 +8842,7 @@
 			(uuid "eaa0fa9d-b88b-4284-bf94-d5facbbe1e9a")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR032")
 					(unit 1)
@@ -8920,7 +8920,7 @@
 			(uuid "b9c387a9-6162-4669-a9f7-89f26e2e60f4")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR019")
 					(unit 1)
@@ -9011,7 +9011,7 @@
 			(uuid "907ea3be-2464-4fbd-82bb-5709f64f3a3e")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "R4")
 					(unit 1)
@@ -9089,7 +9089,7 @@
 			(uuid "b9116545-0368-434f-916b-3196097bd3ad")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR026")
 					(unit 1)
@@ -9177,7 +9177,7 @@
 			(uuid "e983a04d-d767-43f8-ac9f-bc2465c4f199")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "UTouch1")
 					(unit 1)
@@ -9284,7 +9284,7 @@
 			(uuid "a00cfb81-6489-45f5-80fc-420d4f6da576")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "U4")
 					(unit 1)
@@ -9364,7 +9364,7 @@
 			(uuid "7860a6c6-8092-4ef4-b678-13bb2b325531")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "SW2")
 					(unit 1)
@@ -9442,7 +9442,7 @@
 			(uuid "d2f63efe-c31e-4420-b418-58e6d79b9cd6")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR023")
 					(unit 1)
@@ -9520,7 +9520,7 @@
 			(uuid "de263f54-57ed-4347-a766-9f066ee8721f")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR017")
 					(unit 1)
@@ -9598,7 +9598,7 @@
 			(uuid "da6b07bf-4012-4d05-84b6-14af1f9a8a85")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR09")
 					(unit 1)
@@ -9676,7 +9676,7 @@
 			(uuid "086f8023-2ca6-44b1-b57a-ae92d576cd03")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR07")
 					(unit 1)
@@ -9767,7 +9767,7 @@
 			(uuid "57f16339-7391-4610-b552-f2158f8ed9d6")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "R2")
 					(unit 1)
@@ -9854,7 +9854,7 @@
 			(uuid "a99e1e8c-3251-470b-840b-886fabc8b759")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "U6")
 					(unit 1)
@@ -9932,7 +9932,7 @@
 			(uuid "ceab14b2-2052-42e4-8798-884667111dc3")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR027")
 					(unit 1)
@@ -10024,7 +10024,7 @@
 			(uuid "11877bc8-90df-4dce-9863-5985f47c4200")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "U3")
 					(unit 1)
@@ -10138,7 +10138,7 @@
 			(uuid "0ab01d5a-8155-4a92-9f21-4c52a8a6f1fb")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "C2")
 					(unit 1)
@@ -10252,7 +10252,7 @@
 			(uuid "8330fe99-7264-4b54-99c5-057b7499d340")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "C13")
 					(unit 1)
@@ -10343,7 +10343,7 @@
 			(uuid "345d93f6-7c1c-4487-bf10-c83699873b81")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "R9")
 					(unit 1)
@@ -10458,7 +10458,7 @@
 			(uuid "95bc6383-4833-464f-906e-caefffbdeeda")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "C4")
 					(unit 1)
@@ -10549,7 +10549,7 @@
 			(uuid "c32a73d9-4b72-4df1-9fcf-90c9a849ad70")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "R3")
 					(unit 1)
@@ -10627,7 +10627,7 @@
 			(uuid "681d1ad3-a905-42fa-8bcd-251cb31a6902")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR022")
 					(unit 1)
@@ -10705,7 +10705,7 @@
 			(uuid "9c71e990-5c16-4e00-8d19-a2d4197dee0c")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR024")
 					(unit 1)
@@ -10783,7 +10783,7 @@
 			(uuid "90f829bb-abc1-4d4d-a2c5-318e6c8e3124")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR01")
 					(unit 1)
@@ -10897,7 +10897,7 @@
 			(uuid "db2dad93-90d5-4a16-8d55-5f410751b8d4")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "C1")
 					(unit 1)
@@ -11012,7 +11012,7 @@
 			(uuid "d4550829-e0d9-418f-863c-c3b382769c7a")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "C3")
 					(unit 1)
@@ -11090,7 +11090,7 @@
 			(uuid "de5640ff-c7e0-480a-84e3-6c4774f8bd31")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR034")
 					(unit 1)
@@ -11204,7 +11204,7 @@
 			(uuid "5071f86b-8b5d-4668-934b-561f15758321")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "C11")
 					(unit 1)
@@ -11319,7 +11319,7 @@
 			(uuid "6ff5c4b2-2734-4e5d-9e21-b529c6af5c2f")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "C14")
 					(unit 1)
@@ -11397,7 +11397,7 @@
 			(uuid "bad64cfa-e267-4371-834e-6616b5605bbb")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR020")
 					(unit 1)
@@ -11475,7 +11475,7 @@
 			(uuid "da39faa1-d6ad-47c5-86a1-a8a058439c7c")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR028")
 					(unit 1)
@@ -11553,7 +11553,7 @@
 			(uuid "c4392187-fb5b-41d6-b661-dc49bdccaf02")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR05")
 					(unit 1)
@@ -11631,7 +11631,7 @@
 			(uuid "2507f802-11ad-4585-be14-7757c5c9ef22")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR033")
 					(unit 1)
@@ -11709,7 +11709,7 @@
 			(uuid "e65269bb-c320-45a4-8753-c4fc71146ad3")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR02")
 					(unit 1)
@@ -11816,7 +11816,7 @@
 			(uuid "5c145d11-70be-4a80-8b81-4b55972df64a")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "U1")
 					(unit 1)
@@ -11894,7 +11894,7 @@
 			(uuid "0093612f-adf5-4556-996d-3f7ed502130e")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR03")
 					(unit 1)
@@ -11972,7 +11972,7 @@
 			(uuid "0c483546-be85-4367-bf46-aa7320a8669e")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR04")
 					(unit 1)
@@ -12055,7 +12055,7 @@
 			(uuid "225d0d82-1b03-4a98-bd21-57e8829db7d8")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "U7")
 					(unit 1)
@@ -12133,7 +12133,7 @@
 			(uuid "1188494f-516b-4a78-8283-96eac5f0e231")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#FLG01")
 					(unit 1)
@@ -12213,7 +12213,7 @@
 			(uuid "da8bc5a0-b77d-478f-b06c-2d4e4b8d66a2")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "SW1")
 					(unit 1)
@@ -12291,7 +12291,7 @@
 			(uuid "ab4446c5-eeb4-4b0f-8e1e-69019a693561")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR010")
 					(unit 1)
@@ -12369,7 +12369,7 @@
 			(uuid "6972ba29-9461-4cc0-8469-10b6d090089e")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR08")
 					(unit 1)
@@ -12447,7 +12447,7 @@
 			(uuid "399e78dc-560d-4c29-bb99-e076a83d5b53")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR013")
 					(unit 1)
@@ -12550,7 +12550,7 @@
 			(uuid "fa751172-78f1-4a5c-abca-db7de055b90a")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "U2")
 					(unit 1)
@@ -12628,7 +12628,7 @@
 			(uuid "694508a7-1084-4f48-afd4-b9def65f243e")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR031")
 					(unit 1)
@@ -12706,7 +12706,7 @@
 			(uuid "d244bc32-c773-4f26-aae8-89a0346138c1")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR011")
 					(unit 1)
@@ -12797,7 +12797,7 @@
 			(uuid "ad8e78c3-05f9-433d-a75a-d9a20ff35ea3")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "R8")
 					(unit 1)
@@ -12912,7 +12912,7 @@
 			(uuid "b9bf2bc7-da69-44a3-a934-1e2c7360935f")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "C6")
 					(unit 1)
@@ -13039,7 +13039,7 @@
 			(uuid "76218536-02e1-4e8b-8edd-a71e952155bb")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "J2")
 					(unit 1)
@@ -13117,7 +13117,7 @@
 			(uuid "7ac436c9-f13b-4395-88a6-825f8852630c")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR06")
 					(unit 1)
@@ -13195,7 +13195,7 @@
 			(uuid "3097c5db-8eb7-4c84-99ae-948a933a4908")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR021")
 					(unit 1)
@@ -13286,7 +13286,7 @@
 			(uuid "021d70a5-5931-4ebb-85c8-a560109cf338")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "R5")
 					(unit 1)
@@ -13400,7 +13400,7 @@
 			(uuid "b915646c-8bd4-420c-a344-781964e79248")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "C7")
 					(unit 1)
@@ -13515,7 +13515,7 @@
 			(uuid "0e27e492-3702-47de-96b3-4b24c04a76bc")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "C12")
 					(unit 1)
@@ -13603,7 +13603,7 @@
 			(uuid "42b64323-2eac-4991-b8df-e073d0de3d02")
 		)
 		(instances
-			(project "pantsonfyre"
+			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "UTouch2")
 					(unit 1)

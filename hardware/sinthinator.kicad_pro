@@ -485,7 +485,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "pantsonfyre.kicad_pro",
+    "filename": "sinthinator.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -666,8 +666,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "pantsonfyre.kicad_sch",
-        "name": "pantsonfyre",
+        "filename": "sinthinator.kicad_sch",
+        "name": "sinthinator",
         "uuid": "64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
       }
     ],
@@ -677,7 +677,7 @@
   "sheets": [
     [
       "64a5e531-3d7a-4ff8-86a8-ca74cfe0739b",
-      "pantsonfyre"
+      "sinthinator"
     ]
   ],
   "text_variables": {},

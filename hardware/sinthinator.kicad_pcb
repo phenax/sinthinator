@@ -8,7 +8,7 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "PantsOnFyre")
+		(title "sinthinator")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -186,7 +186,7 @@
 		(property ki_fp_filters "SOT?223*TabPin2*")
 		(path "/bdb78b83-253d-42a7-a26f-d97576fac3f8")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -451,7 +451,7 @@
 		)
 		(path "/56054acd-d7d3-4119-8331-1559a5233f28")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -864,7 +864,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6aafa52c-0806-4663-96d7-578046ea5480")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1073,7 +1073,7 @@
 		(property ki_fp_filters "Jack*")
 		(path "/4133c412-8aa7-41e9-b934-3476d2150ef2")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1343,7 +1343,7 @@
 		)
 		(path "/2537ae1e-230a-47fd-a884-595a31961f52")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1694,7 +1694,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8d107016-564a-4866-8216-9755269d48b4")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1892,7 +1892,7 @@
 		)
 		(path "/56b2a3ad-b306-4e73-a003-795059453a28")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2218,7 +2218,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/dc3bc084-f01e-49c0-b60b-8a771650e689")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2430,7 +2430,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/08daa083-e002-458d-ae9a-a18ccfafc2ff")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2667,7 +2667,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8ba540f0-08da-4944-816e-2a05d8a33fc8")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2879,7 +2879,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4eb9d21d-338b-4a42-913b-8463da439c17")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3116,7 +3116,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/214722d8-d745-4518-8192-24d2e9280e02")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3327,7 +3327,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/e3f7e2cf-482b-47d1-bedd-4e8eece542de")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3918,7 +3918,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7d084599-acd9-427b-a008-bf70f2bd9349")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4130,7 +4130,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/19171180-046d-42d3-a65a-fe8ad5d55e99")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4323,7 +4323,7 @@
 		(property ki_fp_filters "SO*3.9x4.9mm*P1.27mm*")
 		(path "/d0a20808-525b-443d-9a4e-e99812cc0516")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4737,7 +4737,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/fb8fe0f5-6f7e-49d6-b6eb-37ca3306c5e5")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4974,7 +4974,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/418cd251-4259-488b-9b3a-0afc5d7a12b5")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5164,7 +5164,7 @@
 		)
 		(path "/0c61f567-43c7-43ef-8700-537d716a64b4")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5605,7 +5605,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/7f47a321-370b-455a-aada-780b33d0a29c")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5936,7 +5936,7 @@
 		)
 		(path "/c7e48ca5-212a-4e4b-b552-063fffbddd07")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6243,7 +6243,7 @@
 		(property ki_fp_filters "SOIC?14*3.9x8.7mm*P1.27mm*")
 		(path "/1cd66bf0-a167-49e6-bd19-da9f76b16008")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6708,7 +6708,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/997a7c6e-193a-41bc-a4d9-c419e7016108")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6945,7 +6945,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e299b2f4-6e2d-48a4-9828-bdcb8f21ea0c")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7138,7 +7138,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/71f4292a-9542-43ac-b11e-6d372ebf96cb")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7532,7 +7532,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/31986695-ee13-4187-8a82-1f086691cf25")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7769,7 +7769,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3b09b3a8-029b-4111-af4d-6a9ca4ea8d6c")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7961,7 +7961,7 @@
 		)
 		(path "/6ad8de13-ece6-4001-a21a-812eb80b1be0")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8231,7 +8231,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1210e85a-f2df-498e-82a0-3fb7c7054f11")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8468,7 +8468,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7cd2c46d-b825-4714-be44-2ce1f2621a21")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8661,7 +8661,7 @@
 		(property ki_fp_filters "SOIC?14*3.9x8.7mm*P1.27mm*")
 		(path "/561e606f-1d77-4232-bc55-a7f8ba4c51b1")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9126,7 +9126,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7463eb66-46db-456c-aa84-a16c7e5e20ab")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9363,7 +9363,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9afc605e-51c6-4af1-a265-a9df131f0a1c")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9553,7 +9553,7 @@
 		)
 		(path "/feefb00e-f64d-4ac4-8c40-14b5bf63402b")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9991,7 +9991,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/fc8ff928-de02-4f36-8cfe-4ca4f3415099")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10184,7 +10184,7 @@
 		(property ki_fp_filters "MSOP*3x3mm*P0.65mm* SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/0240a684-8333-4457-972d-0e206e81a50d")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10573,7 +10573,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8089529b-778e-499d-a221-5ec70ac60c15")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10766,7 +10766,7 @@
 		(property ki_fp_filters "SOIC?14*3.9x8.7mm*P1.27mm*")
 		(path "/b0f1a1c2-946c-45a1-9d5a-178ef25ca7bb")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11206,7 +11206,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ef05331b-e6fb-4334-b993-791bc09ec43f")
 		(sheetname "/")
-		(sheetfile "pantsonfyre.kicad_sch")
+		(sheetfile "sinthinator.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13160,12 +13160,36 @@
 		(uuid "db29a33d-d10e-4c94-a3cd-1407ac705de2")
 	)
 	(segment
+		(start 163.35125 56.07)
+		(end 166.225 56.07)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U4-ALERT#)")
+		(uuid "bcd18a52-76c2-42ec-93c9-e0bdd7d3de72")
+	)
+	(segment
+		(start 166.225 56.07)
+		(end 166.235 56.08)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U4-ALERT#)")
+		(uuid "f31c1366-d6bf-4272-8e3a-97f968b178da")
+	)
+	(segment
 		(start 175.26625 37.0325)
 		(end 177.26625 37.0325)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(U8-~{SD})")
 		(uuid "885a1b65-2ae1-452a-917f-cd6dbc8994b5")
+	)
+	(segment
+		(start 193.60125 56.12)
+		(end 196.625 56.12)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U5-ALERT#)")
+		(uuid "f83ffab2-ac46-433f-ac4e-a7c89b2dfb58")
 	)
 	(segment
 		(start 151.63625 34.59)
@@ -13720,6 +13744,14 @@
 		(uuid "f58b3be2-2138-4d27-aa0d-8ee8210bb9be")
 	)
 	(segment
+		(start 133.20125 56.07)
+		(end 136.12 56.07)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U1-ALERT#)")
+		(uuid "4ab93642-1ca4-45fa-9f72-e80043c333d3")
+	)
+	(segment
 		(start 156.55125 63.04)
 		(end 156.55125 138.39)
 		(width 0.2)
@@ -13878,38 +13910,6 @@
 		(layer "F.Cu")
 		(net "Net-(U4-CS2)")
 		(uuid "ff996518-f481-4440-9aeb-0fa8c49d698a")
-	)
-	(segment
-		(start 133.20125 56.07)
-		(end 136.12 56.07)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(U1-ALERT#)")
-		(uuid "4ab93642-1ca4-45fa-9f72-e80043c333d3")
-	)
-	(segment
-		(start 163.35125 56.07)
-		(end 166.225 56.07)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(U4-ALERT#)")
-		(uuid "bcd18a52-76c2-42ec-93c9-e0bdd7d3de72")
-	)
-	(segment
-		(start 166.225 56.07)
-		(end 166.235 56.08)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(U4-ALERT#)")
-		(uuid "f31c1366-d6bf-4272-8e3a-97f968b178da")
-	)
-	(segment
-		(start 193.60125 56.12)
-		(end 196.625 56.12)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(U5-ALERT#)")
-		(uuid "f83ffab2-ac46-433f-ac4e-a7c89b2dfb58")
 	)
 	(zone
 		(net "GND")
