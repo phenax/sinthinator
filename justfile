@@ -2,12 +2,15 @@ HWDIR := "hardware"
 HWOUTDIR := "hardware/output"
 KICAD_CLI := "kicad-cli"
 
+default:
+  echo "noop"
+
 hw:
   kicad "{{HWDIR}}/sinthinator.kicad_pro"
 
 gerbers: clean gen-gerbers gen-drill zip-gerbers
 
-svg: svg-schematic
+svg: svg-schematic svg-pcb
 
 drc:
   {{KICAD_CLI}} pcb drc --output --all-track-errors --schematic-parity --format=json --severity-all "{{HWDIR}}/sinthinator.kicad_pcb"
@@ -19,7 +22,12 @@ zip-gerbers:
   cd "{{HWOUTDIR}}/gerbers" && zip -r sinthinator-gerbers.zip ./sinthinator
 
 svg-schematic:
-  {{KICAD_CLI}} sch export svg -t arcana --output . "{{HWDIR}}/sinthinator.kicad_sch"
+  {{KICAD_CLI}} sch export svg --output . "{{HWDIR}}/sinthinator.kicad_sch"
+  inkscape sinthinator.svg -w 3840 --export-area-page -o sinthinator.png
+
+svg-pcb:
+  {{KICAD_CLI}} pcb render "{{HWDIR}}/sinthinator.kicad_pcb" -w 3840 --background default --side top -o pcb-top.png
+  {{KICAD_CLI}} pcb render "{{HWDIR}}/sinthinator.kicad_pcb" -w 3840 --side bottom -o pcb-bottom.png
 
 bom:
   {{KICAD_CLI}} sch export bom "{{HWDIR}}/sinthinator.kicad_sch" -o "{{HWOUTDIR}}/sinthinator-bom.csv"
