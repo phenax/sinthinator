@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -63,8 +63,8 @@
 		)
 		(symbol "STLink-Headers_0_1"
 			(rectangle
-				(start -10.16 3.81)
-				(end 10.16 -3.81)
+				(start -17.78 3.81)
+				(end 17.78 -3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -76,7 +76,7 @@
 		)
 		(symbol "STLink-Headers_1_1"
 			(pin power_in line
-				(at -7.62 -3.81 270)
+				(at -15.24 -3.81 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -94,7 +94,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -3.81 270)
+				(at -10.16 -3.81 270)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -112,9 +112,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 2.54 -3.81 270)
+				(at -5.08 -3.81 270)
 				(length 2.54)
-				(name "SDIO"
+				(name "SWDIO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -130,9 +130,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 7.62 -3.81 270)
+				(at 0 -3.81 270)
 				(length 2.54)
-				(name "SDCLK"
+				(name "SWDCLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -140,6 +140,60 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 5.08 -3.81 270)
+				(length 2.54)
+				(name "NRST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 10.16 -3.81 270)
+				(length 2.54)
+				(name "I2C_SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -3.81 270)
+				(length 2.54)
+				(name "I2C_SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
