@@ -1407,217 +1407,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SparkFun-Capacitor:100uF_6.6x6.6_25V_20%"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "100uF"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "PCM_SparkFun-Capacitor:Panasonic_D"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.chemi-con.co.jp/products/relatedfiles/capacitor/catalog/MVARA-e.PDF"
-				(at 1.27 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Polarized capacitor, US symbol, 0.248\" Dia x 0.303\" H, Electrolitic"
-				(at 0.508 -20.574 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PROD_ID" "CAP-12547"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Voltage" "25V"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tolerance" "20%"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SparkFun cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "100uF_6.6x6.6_25V_20%_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.524) (xy -0.762 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy -1.016 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 -0.762)
-					(mid 0 -0.3734)
-					(end 1.524 -0.762)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "100uF_6.6x6.6_25V_20%_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_SparkFun-Capacitor:10uF_0603_6.3V_20%"
 			(pin_numbers
 				(hide yes)
@@ -1804,12 +1593,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SparkFun-Capacitor:22uF_0603_6.3V_20%"
+		(symbol "PCM_SparkFun-Capacitor:10uF_0603_6.3V_20%_Polar(Tant)"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
 				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1817,7 +1607,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1827,8 +1617,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "22uF"
-				(at 0.635 -2.54 0)
+			(property "Value" "10uF"
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1838,8 +1628,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
-				(at 0 -11.43 0)
+			(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric_Polar"
+				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1849,8 +1639,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
-				(at 0 -16.51 0)
+			(property "Datasheet" "https://datasheets.kyocera-avx.com/tc-series.pdf"
+				(at 1.27 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1860,8 +1650,8 @@
 					)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 -19.05 0)
+			(property "Description" "Capacitor Tantalum 10uF 6.3V +/-20% 0603"
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1871,8 +1661,8 @@
 					)
 				)
 			)
-			(property "PROD_ID" "CAP-14464"
-				(at -1.27 -13.97 0)
+			(property "PROD_ID" "CAP-13210"
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1883,7 +1673,7 @@
 				)
 			)
 			(property "Voltage" "6.3V"
-				(at 0 -6.35 0)
+				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1893,7 +1683,7 @@
 				)
 			)
 			(property "Tolerance" "20%"
-				(at 0 -8.89 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1913,7 +1703,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "C_*"
+			(property "ki_fp_filters" "CP_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1924,7 +1714,7 @@
 					)
 				)
 			)
-			(symbol "22uF_0603_6.3V_20%_0_1"
+			(symbol "10uF_0603_6.3V_20%_Polar(Tant)_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -1939,10 +1729,34 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.27 1.524) (xy -0.762 1.524)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 -0.762)
+					(mid 0 -0.3734)
+					(end 1.524 -0.762)
+					(stroke
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -1950,7 +1764,7 @@
 					)
 				)
 			)
-			(symbol "22uF_0603_6.3V_20%_1_1"
+			(symbol "10uF_0603_6.3V_20%_Polar(Tant)_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -4590,28 +4404,22 @@
 		(uuid "543ffeae-d68e-41b9-820d-455dc776d7e6")
 	)
 	(junction
-		(at 85.09 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5542f237-1f30-4fde-8391-002995b8da71")
-	)
-	(junction
 		(at 125.73 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55952118-df25-402d-899b-0d8c7f22fa13")
 	)
 	(junction
+		(at 85.09 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d4c84f6-4560-4ae8-ab86-664e5361636a")
+	)
+	(junction
 		(at 148.59 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e29b60f-fef8-4ffa-ab61-13e9511e142c")
-	)
-	(junction
-		(at 74.93 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62bf6596-48a6-45b6-aea3-99371081ceb8")
 	)
 	(junction
 		(at 69.85 113.03)
@@ -4662,10 +4470,10 @@
 		(uuid "8b693648-9abf-4252-9791-136104394099")
 	)
 	(junction
-		(at 59.69 31.75)
+		(at 85.09 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8ccd0883-4855-4805-86c2-2917aa9e630a")
+		(uuid "91aaa36c-80e3-4acb-a9bf-171aa17d0629")
 	)
 	(junction
 		(at 148.59 83.82)
@@ -4756,6 +4564,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f653bfc6-db34-44c1-a16a-945dcdf8205d")
+	)
+	(junction
+		(at 59.69 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa96a201-7f92-4aad-b66e-60fe15e85e6f")
 	)
 	(no_connect
 		(at 46.99 40.64)
@@ -4937,16 +4751,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 39.37) (xy 72.39 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15789eb1-0ada-4e2a-bec1-73b9fc19e7e9")
-	)
-	(wire
-		(pts
 			(xy 113.03 46.99) (xy 123.19 46.99)
 		)
 		(stroke
@@ -5054,16 +4858,6 @@
 			(type default)
 		)
 		(uuid "2037e7d3-98b7-46b1-a240-8e56c10f232c")
-	)
-	(wire
-		(pts
-			(xy 59.69 39.37) (xy 72.39 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2077744e-d293-4456-aae0-1d55b53e2ed6")
 	)
 	(wire
 		(pts
@@ -5377,7 +5171,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 39.37) (xy 74.93 40.64)
+			(xy 85.09 39.37) (xy 85.09 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5727,16 +5521,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 39.37) (xy 85.09 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b600667-e060-4aa8-856e-8f6097dea55e")
-	)
-	(wire
-		(pts
 			(xy 123.19 115.57) (xy 125.73 115.57)
 		)
 		(stroke
@@ -5874,16 +5658,6 @@
 			(type default)
 		)
 		(uuid "7394e048-14d8-4e67-991c-3fe181dbc903")
-	)
-	(wire
-		(pts
-			(xy 59.69 31.75) (xy 64.77 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73e6af5e-0c31-4ca0-b264-f045a41280e0")
 	)
 	(wire
 		(pts
@@ -6347,16 +6121,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 36.83) (xy 85.09 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99d0cf0f-a546-4118-a4b9-6b8ecb84a56f")
-	)
-	(wire
-		(pts
 			(xy 123.19 118.11) (xy 123.19 115.57)
 		)
 		(stroke
@@ -6364,6 +6128,16 @@
 			(type default)
 		)
 		(uuid "9ea26264-72d0-4e2f-aa95-030bb9abd8dd")
+	)
+	(wire
+		(pts
+			(xy 59.69 31.75) (xy 64.77 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ef382cf-4be4-4b17-8bb1-c70d0059e713")
 	)
 	(wire
 		(pts
@@ -6564,6 +6338,16 @@
 			(type default)
 		)
 		(uuid "b2f043e5-9e51-41b6-b4e2-d3d6bb547892")
+	)
+	(wire
+		(pts
+			(xy 85.09 36.83) (xy 85.09 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b39c9634-3a0c-48cc-a07f-cd81d67a3a13")
 	)
 	(wire
 		(pts
@@ -7094,6 +6878,16 @@
 			(type default)
 		)
 		(uuid "e4eafb01-bd12-4bcb-a477-e3b143a6ecea")
+	)
+	(wire
+		(pts
+			(xy 85.09 39.37) (xy 59.69 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e60ecf2d-9917-49cf-9da2-d4b2b99f7232")
 	)
 	(wire
 		(pts
@@ -9194,7 +8988,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 40.64 0)
+		(at 85.09 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9204,7 +8998,7 @@
 		(dnp no)
 		(uuid "486da125-8a2f-4f32-aef3-26d87faaf756")
 		(property "Reference" "#PWR025"
-			(at 74.93 46.99 0)
+			(at 85.09 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9215,7 +9009,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 44.704 0)
+			(at 85.09 45.974 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9225,7 +9019,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 40.64 0)
+			(at 85.09 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9236,7 +9030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 40.64 0)
+			(at 85.09 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9247,7 +9041,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 40.64 0)
+			(at 85.09 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10935,122 +10729,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Capacitor:100uF_6.6x6.6_25V_20%")
-		(at 59.69 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7f47a321-370b-455a-aada-780b33d0a29c")
-		(property "Reference" "C4"
-			(at 53.34 34.544 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 53.34 37.084 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:Panasonic_D"
-			(at 59.69 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.chemi-con.co.jp/products/relatedfiles/capacitor/catalog/MVARA-e.PDF"
-			(at 60.96 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol, 0.248\" Dia x 0.303\" H, Electrolitic"
-			(at 60.198 54.864 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" "CAP-12547"
-			(at 59.69 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "25V"
-			(at 53.086 39.116 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "20%"
-			(at 53.086 41.656 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "1214a4c0-6bf6-4e61-aa32-485c55e62471")
-		)
-		(pin "2"
-			(uuid "95bc6383-4833-464f-906e-caefffbdeeda")
-		)
-		(instances
-			(project "sinthinator"
-				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SparkFun-Resistor:1k_0603")
 		(at 156.21 22.86 180)
 		(unit 1)
@@ -11296,6 +10974,122 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-Capacitor:10uF_0603_6.3V_20%_Polar(Tant)")
+		(at 59.69 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "825240cc-d45c-4c1c-a5d7-10a49e860fce")
+		(property "Reference" "C3"
+			(at 54.61 34.036 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 54.61 36.576 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric_Polar"
+			(at 59.69 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/tc-series.pdf"
+			(at 60.96 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor Tantalum 10uF 6.3V +/-20% 0603"
+			(at 59.69 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "CAP-13210"
+			(at 59.69 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "6.3V"
+			(at 62.23 35.1281 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 62.23 37.6681 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "46d9a56e-ce81-4c43-a7c6-06a7c2acf507")
+		)
+		(pin "1"
+			(uuid "a67697d4-f56a-4db5-a1bb-e263eb7f9444")
+		)
+		(instances
+			(project "sinthinator"
+				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 95.25 139.7 0)
 		(unit 1)
@@ -11483,122 +11277,6 @@
 			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-Capacitor:22uF_0603_6.3V_20%")
-		(at 85.09 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8d107016-564a-4866-8216-9755269d48b4")
-		(property "Reference" "C3"
-			(at 87.63 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 87.63 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
-			(at 85.09 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
-			(at 85.09 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor (tantalum)"
-			(at 85.09 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" "CAP-14464"
-			(at 83.82 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "6.3V"
-			(at 87.63 35.5662 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "20%"
-			(at 87.63 38.1062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "7a9e2e4c-a765-4c95-8ed8-1a069e8ac6b9")
-		)
-		(pin "1"
-			(uuid "d4550829-e0d9-418f-863c-c3b382769c7a")
-		)
-		(instances
-			(project "sinthinator"
-				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -11986,6 +11664,122 @@
 			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Capacitor:10uF_0603_6.3V_20%_Polar(Tant)")
+		(at 85.09 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a98e6a52-d726-43c1-a32d-6db2c4253598")
+		(property "Reference" "C4"
+			(at 87.122 33.782 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 85.598 36.322 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric_Polar"
+			(at 85.09 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/tc-series.pdf"
+			(at 86.36 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor Tantalum 10uF 6.3V +/-20% 0603"
+			(at 85.09 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "CAP-13210"
+			(at 85.09 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "6.3V"
+			(at 87.63 35.1281 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 87.63 37.6681 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "f056588c-3aae-43a8-a591-f4853f2e2d40")
+		)
+		(pin "1"
+			(uuid "829c48f6-de3b-4b50-83e3-a13e6cab8c42")
+		)
+		(instances
+			(project "sinthinator"
+				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
+					(reference "C4")
 					(unit 1)
 				)
 			)
