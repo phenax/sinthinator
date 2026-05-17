@@ -109,7 +109,7 @@
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -671,7 +671,7 @@
         "uuid": "64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
       }
     ],
-    "used_designators": "R7-9",
+    "used_designators": "#PWR35,R7-11",
     "variants": []
   },
   "sheets": [

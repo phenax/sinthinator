@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Slider:STLink-Headers"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -75,10 +75,10 @@
 			)
 		)
 		(symbol "STLink-Headers_1_1"
-			(pin bidirectional line
+			(pin power_in line
 				(at -7.62 -3.81 270)
 				(length 2.54)
-				(name "SDIO"
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -93,10 +93,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -2.54 -3.81 270)
 				(length 2.54)
-				(name "SDCLK"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -111,10 +111,10 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 2.54 -3.81 270)
 				(length 2.54)
-				(name "VDD"
+				(name "SDIO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -129,10 +129,10 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 7.62 -3.81 270)
 				(length 2.54)
-				(name "GND"
+				(name "SDCLK"
 					(effects
 						(font
 							(size 1.27 1.27)
