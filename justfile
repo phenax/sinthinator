@@ -23,11 +23,11 @@ zip-gerbers:
 
 svg-schematic:
   {{KICAD_CLI}} sch export svg --output . "{{HWDIR}}/sinthinator.kicad_sch"
-  inkscape sinthinator.svg -w 3840 --export-area-page -o sinthinator.png
+  inkscape sinthinator.svg -w 1920 --export-area-page -o sinthinator.png
 
 svg-pcb:
-  {{KICAD_CLI}} pcb render "{{HWDIR}}/sinthinator.kicad_pcb" -w 3840 --background default --side top -o pcb-top.png
-  {{KICAD_CLI}} pcb render "{{HWDIR}}/sinthinator.kicad_pcb" -w 3840 --side bottom -o pcb-bottom.png
+  {{KICAD_CLI}} pcb render "{{HWDIR}}/sinthinator.kicad_pcb" -w 800 --background default --side top -o pcb-top.png
+  {{KICAD_CLI}} pcb render "{{HWDIR}}/sinthinator.kicad_pcb" -w 800 --side bottom -o pcb-bottom.png
 
 bom:
   {{KICAD_CLI}} sch export bom "{{HWDIR}}/sinthinator.kicad_sch" -o "{{HWOUTDIR}}/sinthinator-bom.csv"

@@ -6,6 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "sinthinator")
+		(date "2026-04-08")
+		(rev "v1")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Audio:PAM8302AAD"
@@ -4295,6 +4297,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Power"
+		(exclude_from_sim no)
+		(at 19.812 41.402 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7eb27a75-723f-47c9-bb0a-2b80a5f5a812")
+	)
 	(junction
 		(at 87.63 86.36)
 		(diameter 0)
@@ -7171,7 +7183,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PAM8302AAD"
+		(property "Value" "PAM8302A"
 			(at 240.284 76.962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7205,6 +7217,17 @@
 			)
 		)
 		(property "Description" "2.5W Filterless Class-D Mono Audio Amplifier, SOIC-8"
+			(at 237.49 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FullValue" "PAM8302AAD"
 			(at 237.49 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -7693,10 +7716,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1cd66bf0-a167-49e6-bd19-da9f76b16008")
 		(property "Reference" "U5"
-			(at 233.68 119.0146 90)
+			(at 215.138 122.936 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7705,8 +7727,8 @@
 				)
 			)
 		)
-		(property "Value" "CAP1206-x-SL"
-			(at 233.68 121.5546 90)
+		(property "Value" "CAP1206"
+			(at 215.138 125.476 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7739,6 +7761,17 @@
 		)
 		(property "Description" "6-Channel Capacitive Touch Sensor, SOIC-14"
 			(at 215.9 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FullValue" "CAP1206-x-SL"
+			(at 215.9 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9485,10 +9518,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "561e606f-1d77-4232-bc55-a7f8ba4c51b1")
 		(property "Reference" "U4"
-			(at 168.91 119.0146 90)
+			(at 150.368 122.936 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9497,8 +9529,8 @@
 				)
 			)
 		)
-		(property "Value" "CAP1206-x-SL"
-			(at 168.91 121.5546 90)
+		(property "Value" "CAP1206"
+			(at 150.368 125.476 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9531,6 +9563,17 @@
 		)
 		(property "Description" "6-Channel Capacitive Touch Sensor, SOIC-14"
 			(at 151.13 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FullValue" "CAP1206-x-SL"
+			(at 151.13 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10327,7 +10370,7 @@
 		(dnp no)
 		(uuid "71f4292a-9542-43ac-b11e-6d372ebf96cb")
 		(property "Reference" "U3"
-			(at 201.168 85.344 0)
+			(at 200.406 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10336,8 +10379,8 @@
 				)
 			)
 		)
-		(property "Value" "MCP4725xxx-xCH"
-			(at 201.168 87.884 0)
+		(property "Value" "MCP4725"
+			(at 200.406 88.392 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10369,6 +10412,17 @@
 			)
 		)
 		(property "Description" "12-bit Digital-to-Analog Converter, integrated EEPROM, I2C interface, SOT-23-6"
+			(at 190.5 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FullValue" "MCP4725xxx-xCH"
 			(at 190.5 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12106,10 +12160,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b0f1a1c2-946c-45a1-9d5a-178ef25ca7bb")
 		(property "Reference" "U1"
-			(at 102.87 119.0146 90)
+			(at 84.074 122.936 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12118,8 +12171,8 @@
 				)
 			)
 		)
-		(property "Value" "CAP1206-x-SL"
-			(at 102.87 121.5546 90)
+		(property "Value" "CAP1206"
+			(at 84.074 125.476 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12152,6 +12205,17 @@
 		)
 		(property "Description" "6-Channel Capacitive Touch Sensor, SOIC-14"
 			(at 85.09 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FullValue" "CAP1206-x-SL"
+			(at 85.09 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13316,7 +13380,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle"
+		(property "Value" "USB-C"
 			(at 31.75 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
