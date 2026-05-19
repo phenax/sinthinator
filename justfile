@@ -46,3 +46,9 @@ bom:
     --generate-map --map-format gerberx2 \
     --output "{{HWOUTDIR}}/gerbers/sinthinator" \
     "{{HWDIR}}/sinthinator.kicad_pcb"
+
+lion search:
+  #!/usr/bin/env sh
+  sel=$(curl -XGET 'https://www.lioncircuits.com/api/searchsuggestion?q={{search}}' | jq '.results.Products | map(.mpn + "\t| " + .description + "\t| " + .datasheet + " |") | join("\n")' -r | fzf)
+  echo "$sel";
+  echo "https://www.lioncircuits.com/parts/$(echo "$sel")";
