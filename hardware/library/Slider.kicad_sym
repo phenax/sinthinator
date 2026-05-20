@@ -230,7 +230,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Slider:TouchSlider-5_80x12mm"
+		(property "Footprint" "Slider:TouchSlider-6_100x15mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -265,8 +265,8 @@
 		)
 		(symbol "Slider_0_1"
 			(rectangle
-				(start -12.7 3.81)
-				(end 12.7 -3.81)
+				(start -15.24 2.54)
+				(end 15.24 -2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -278,7 +278,7 @@
 		)
 		(symbol "Slider_1_1"
 			(pin output line
-				(at -12.7 0 180)
+				(at -12.7 2.54 90)
 				(length 2.54)
 				(name ""
 					(effects
@@ -296,7 +296,7 @@
 				)
 			)
 			(pin output line
-				(at -5.08 3.81 90)
+				(at -7.62 2.54 90)
 				(length 2.54)
 				(name ""
 					(effects
@@ -314,7 +314,7 @@
 				)
 			)
 			(pin output line
-				(at 0 3.81 90)
+				(at -2.54 2.54 90)
 				(length 2.54)
 				(name ""
 					(effects
@@ -332,7 +332,7 @@
 				)
 			)
 			(pin output line
-				(at 5.08 3.81 90)
+				(at 2.54 2.54 90)
 				(length 2.54)
 				(name ""
 					(effects
@@ -350,7 +350,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 0 0)
+				(at 7.62 2.54 90)
 				(length 2.54)
 				(name ""
 					(effects
@@ -360,6 +360,24 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 2.54 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
