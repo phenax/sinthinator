@@ -6,3 +6,4 @@ fp-info-cache
 output/
 *-backups/
 .history/
+_autosave-*
