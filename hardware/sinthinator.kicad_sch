@@ -459,6 +459,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Potentiometer"
 			(pin_names
 				(offset 1.016)
@@ -5649,7 +5832,7 @@
 	)
 	(rectangle
 		(start 273.558 136.906)
-		(end 395.732 201.676)
+		(end 398.018 201.676)
 		(stroke
 			(width 0)
 			(type default)
@@ -5963,6 +6146,12 @@
 		(uuid "7c0f723e-f90b-41a6-b60c-a20f244bea87")
 	)
 	(junction
+		(at 372.11 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84e8ba95-fa20-434f-97a3-08f00e4bc9b0")
+	)
+	(junction
 		(at 137.16 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6093,6 +6282,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d023aa2f-d4b0-4bac-b2ec-9452442a16c4")
+	)
+	(junction
+		(at 374.65 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1f4a65b-8ae9-4f8d-9e9e-ed75b0d7603c")
 	)
 	(junction
 		(at 337.82 158.75)
@@ -6624,7 +6819,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 173.99) (xy 378.46 173.99)
+			(xy 369.57 173.99) (xy 374.65 173.99)
 		)
 		(stroke
 			(width 0)
@@ -6814,7 +7009,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 179.07) (xy 378.46 179.07)
+			(xy 359.41 179.07) (xy 372.11 179.07)
 		)
 		(stroke
 			(width 0)
@@ -6901,6 +7096,16 @@
 			(type default)
 		)
 		(uuid "4234bf54-c62d-4db9-ba53-5c05b6cd5203")
+	)
+	(wire
+		(pts
+			(xy 379.73 193.04) (xy 372.11 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425cd387-5966-4c0c-9849-271378798196")
 	)
 	(wire
 		(pts
@@ -7171,6 +7376,16 @@
 			(type default)
 		)
 		(uuid "5415aefd-5421-4179-88c3-3074d08d11c4")
+	)
+	(wire
+		(pts
+			(xy 374.65 190.5) (xy 374.65 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5431fb5b-92d6-4476-bbfe-9ddd88f2cb9e")
 	)
 	(wire
 		(pts
@@ -8094,6 +8309,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 173.99) (xy 378.46 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4e8549-5266-4494-902e-a9b6921215d8")
+	)
+	(wire
+		(pts
 			(xy 133.35 209.55) (xy 144.78 209.55)
 		)
 		(stroke
@@ -8481,6 +8706,16 @@
 			(type default)
 		)
 		(uuid "bdc4aaad-22d7-416c-8ff1-7b4ceae1fc87")
+	)
+	(wire
+		(pts
+			(xy 372.11 179.07) (xy 378.46 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be04d80c-2719-409b-9986-3ac61c9a0c08")
 	)
 	(wire
 		(pts
@@ -8941,6 +9176,26 @@
 			(type default)
 		)
 		(uuid "e4148316-085b-4600-8530-cb1d5a986df0")
+	)
+	(wire
+		(pts
+			(xy 379.73 190.5) (xy 374.65 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e471a8e3-991e-4f4f-95d0-ac3448f640bd")
+	)
+	(wire
+		(pts
+			(xy 372.11 193.04) (xy 372.11 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a3bc58-6ead-450b-96a6-17d989beccfb")
 	)
 	(wire
 		(pts
@@ -15548,6 +15803,87 @@
 			(project "sinthinator"
 				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 384.81 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0315c8a-d30a-4e4f-8615-7e9fe189fe3a")
+		(property "Reference" "J3"
+			(at 386.334 191.008 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Audio Out"
+			(at 386.08 193.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+			(at 384.81 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 384.81 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 384.81 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "604dc30f-2a55-4be7-8507-75d9c3ab330d")
+		)
+		(pin "1"
+			(uuid "640fe781-d92b-44d8-880b-b6685ae2fe96")
+		)
+		(instances
+			(project "sinthinator"
+				(path "/64a5e531-3d7a-4ff8-86a8-ca74cfe0739b"
+					(reference "J3")
 					(unit 1)
 				)
 			)
